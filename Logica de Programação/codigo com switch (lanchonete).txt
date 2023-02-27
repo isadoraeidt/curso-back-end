@@ -1,0 +1,74 @@
+function inicio()
+{
+
+ const xsaladap = 5,  xtudop = 10, xgalinhap = 8;
+ var tomate = 90, alface = 90, galinha = 90,  pao = 90,  queijo = 90, carne = 90 ;
+
+ console.log("LANCHONETE DO SENAI\n")
+ console.log("Preços:\nx-salada R$5\nx-tudo R$10\nx-galinha R$8")
+
+  do{
+    //do{
+    //pedidocliente = prompt ("Qual lanche você gostaria de pedir? ");
+    //} while ((pedidocliente === "" || pedidocliente === null) && Nan(pedidocliente)){
+    //pedidocliente = prompt ("Resposta invalida, qual lanche você gostaria de pedir? ")
+    //}
+
+    //do{
+    //carteiracliente = prompt ("Quantos reais você tem? ");
+    //} while ((carteiracliente === "" || carteiracliente === null) && isNan(carteiracliente));
+    pedidocliente = "x-tudo";
+    carteiracliente = 15;
+    switch(pedidocliente){
+    case "x-salada":
+      alface -= 5 
+      pao -= 5
+      queijo -= 5 
+      carne -= 5
+      troco = carteiracliente - xsaladap
+      console.log("O valor do seu pedido foi de R$", xsaladap, "\n Seu troco foi de R$" ,troco, "\nQuantidade de ingredientes disponivel no estoque: Alface", alface ,",Tomate", tomate ,",Pao", pao ,",Queijo", queijo ,",Carne", carne)
+      break;
+
+    case "x-galinha":
+      tomate -= 5
+      alface -= 5 
+      pao -= 5
+      queijo -= 5 
+      galinha -= 5
+      troco = carteiracliente - xgalinhap
+      console.log("O valor do seu pedido foi de $", xgalinhap, "\n Seu troco foi de R$" ,troco, "\nQuantidade de ingredientes disponivel no estoque: Alface", alface ,",Tomate", tomate ,",Pao", pao ,",Queijo", queijo ,",Galinha", galinha)
+      break;
+
+    case "x-tudo":
+      tomate -= 5
+      alface -= 5 
+      pao -= 5
+      queijo -= 5 
+      galinha -= 5
+      carne -= 5
+      troco = carteiracliente - xtudop
+      console.log("O valor do seu pedido foi de $", xtudop,  "\n Seu troco foi de R$" ,troco, "\nQuantidade de ingredientes disponivel no estoque: Alface", alface ,",Tomate", tomate ,",Pao", pao ,",Queijo", queijo ,",Galinha", galinha ,",Carne", carne)
+      break; 
+
+    default:
+        console.log("não entrou em nenhuma condição");
+        break;
+    }
+    //sairdosistema = prompt ("Você quer sair do sistema? ");
+  } while (sairsistema === "não" )
+  {
+
+    
+    //do{
+    //pedidocliente = prompt ("Qual lanche você gostaria de pedir? ");
+    //} while ((pedidocliente === "" || pedidocliente === null) && Nan(pedidocliente)){
+    //pedidocliente = prompt ("Resposta invalida, qual lanche você gostaria de pedir? ")
+    //}
+
+    //do{
+    //carteiracliente = prompt ("Quantos reais você tem? ");
+    //} while ((carteiracliente === "" || carteiracliente === null) && isNan(carteiracliente));
+    pedidocliente = "x-tudo";
+    carteiracliente = 15;
+  }
+}
