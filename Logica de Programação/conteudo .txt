@@ -1,0 +1,24 @@
+*JS*
+duas barra em pé || ou 
+&& isNan confirmar que é um número
+Nan  not a number
+5=="5" Verdadeiro 
+5==="5" Falso
+prompt para pergunta 
+while enquanto não fizer o que ta pedindo volta
+i++ adiciona 1 aos poucos
++= somar uma variavel com outra
+\n próxima linha 
+${variavel} ou +variavel+ tem que estar entre parenteses e crase (´&{variavel}´)
+alert só para aparecer na tela 
+parametros 
+this.variavel para confirmar que está falando daquela variavel mesmo 
+funcao(){} 
+---------------------------------------------------------------------------------------------------------
+
+*HTML*
+pagina estatica pode ter html mas sem java não vai fazer nada 
+html sempre <> </> abre e fecha 
+<title> titulo
+<head> cabeçalho
+<body> é o que aparece no site 
