@@ -1,4 +1,0 @@
-quando precisar manipular o objeto sempre fazer uma copia
-object assing selecionar uma parte do objeto
-... tamanho do objeto sem saber a quantidade de itens
- variavel.nome do item = new object() para criarnovo objeto
