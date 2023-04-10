@@ -1,0 +1,64 @@
+{
+    "placas":[{
+        "Modelo":"Corsa",
+        "Ano":"2000",
+        "Marca":"Chevrolet",
+        "Placa":"MIA4555"
+    },
+    {
+        "Modelo":"Parati",
+        "Ano":"1982",
+        "Marca":"Volkswagen",
+        "Placa":"BRA2E19"
+    },
+    {
+        "Modelo":"Fusca",
+        "Ano":"1975",
+        "Marca":"Volkswagen",
+        "Placa":"ANA0905"
+    },
+    {
+        "Modelo":"Kombi",
+        "Ano":"1950",
+        "Marca":"Volkswagen",
+        "Placa":"ISA0E02"
+    },
+    {
+        "Modelo":"Saveiro",
+        "Ano":"1982",
+        "Marca":"Volkswagen",
+        "Placa":"EVE2306"
+    },
+    {
+        "Modelo":"Jeep Compass",
+        "Ano":"2020",
+        "Marca":"Jeep",
+        "Placa":"NJI0595"
+    },
+    {
+        "Modelo":"Dodger Ram",
+        "Ano":"2022",
+        "Marca":"Ram",
+        "Placa":"MTR7631"
+    },
+    {
+        "Modelo":"Dodger Charger",
+        "Ano":"1969",
+        "Marca":"Charger",
+        "Placa":"CMG3164"
+    },
+    {
+        "Modelo":"Camaro",
+        "Ano":"2010",
+        "Marca":"Chevrolet",
+        "Placa":"GPJ6702"
+    },
+    {
+        "Modelo":"T-Cross",
+        "Ano":"2022",
+        "Marca":"Volkswagen",
+        "Placa":"HDS6650"
+    }
+    
+]
+}
